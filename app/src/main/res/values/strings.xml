@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Spaceshooter</string>
+    <string name="startButtonText">Start Game!</string>
+    <string name="highScoreText">Longest Distance: %1$d km</string>
+    <string name="playerHealth">Health: %1$d</string>
+    <string name="distanceTravelled">Distance: %1$d</string>
+    <string name="restart">(tap screen to restart)</string>
+    <string name="game_over">GAME OVER!</string>
+    <string name="high_score">high score</string>
+</resources>

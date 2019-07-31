@@ -1,0 +1,44 @@
+package com.busecarik.spaceshooter;
+
+public class Config {
+    static final int STAGE_WIDTH = 1280;
+    static final int STAGE_HEIGHT = 720;
+    static final int STAR_COUNT = 40;
+    static final int ENEMY_COUNT = 8;
+    static final int ALPHA_VALUE = 255;
+    static final int TRANSPARENT_VALUE = 85;
+    static final String PREFS = "com.busecarik.spaceshooter";
+    static final String LONGEST_DIST = "longest_distance";
+    static final float CENTER_Y = STAGE_HEIGHT/2;
+    static final float CENTER_X = STAGE_WIDTH/2 - 250;
+    final static float TEXT_SIZE_HUD = 48f;
+    final static int PLAYER_HEIGHT = 60;
+    final static int STARTING_POSITION = 40;
+    final static int STARTING_HEALTH = 3;
+    final static float ACC = 1.1f;
+    final static float MIN_VEL = 1f;
+    final static float MAX_VEL = 20f;
+    final static float GRAVITY = 1.1f;
+    final static float LIFT = - (GRAVITY*2);
+    final static float DRAG = 0.97f;
+    static final float Y_VELOCITY = 5.5f;
+    static final float X_VELOCITY = 1.5f;
+    final static int ENEMY_HEIGHT = 60;
+    final static int ENEMY_SPAWN_OFFSET = STAGE_WIDTH;
+    final static int CHAL_ENEMY_SPAWN_OFFSET = STAGE_WIDTH - 200;
+    static final int MAX_STREAMS = 5;
+    static final float DEFAULT_VOLUME = 1.0f;
+    static final String SOUNDS_PREF_KEY = "soundsEnabled";
+    static final float TEXT_SIZE = 36f;
+    final static int PLAYER_HEALTH = 3;
+    final static String CRASH = "crash.wav";
+    final static String BOOST = "boost.wav";
+    final static String GAME_OVER = "gameOver.wav";
+    final static String START_GAME = "startGame.wav";
+    final static int COLOR_RANGE = 256;
+    final static int RADIUS_VALUE = 6;
+    final static int STAR_VALUE = 2;
+    final static long COOL_DOWN = 2000;
+    final static int CHAL_ENEMY_APPEARANCE = 5000;
+    final static int ENEMY_APPEARANCE = 1000;
+}
